@@ -1,0 +1,94 @@
+@media (min-width: 1080px) {
+  body {
+    background-color: hsl(30, 18%, 87%);
+  }
+}
+body h1,
+body h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body h3 {
+  color: hsl(14, 45%, 36%);
+  font-size: 2rem;
+}
+body h4 {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.3rem;
+  font-family: "Outfit", sans-serif;
+}
+body span {
+  font-weight: 800;
+}
+body p,
+body li,
+body td {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+}
+body ul li,
+body ol li {
+  padding-left: 20px;
+}
+body ul li::marker,
+body ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+body hr {
+  opacity: 60%;
+}
+
+main {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+@media (min-width: 1080px) {
+  main {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px 30px;
+  }
+}
+main .img-header {
+  width: 100%;
+  border: 18px;
+  margin: 0;
+  padding: 0;
+}
+main .img-header img {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 1080px) {
+  main .img-header img {
+    border-radius: 18px;
+  }
+}
+main .main-content {
+  width: 90%;
+  margin: 0 auto;
+}
+main .main-content .preparation-time {
+  width: 85%;
+  margin: 0 auto;
+}
+main .main-content table {
+  width: 100%;
+}
+main .main-content table tr td {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-top: 15px;
+}
+main .main-content table tr td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=app.css.map */
